@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Models (regenerate with the build scripts)
+backend/models/*.pkl
+
+# Data / PDFs (not committed -- provide your own)
+data/*.csv
+pdfs/*.pdf
+!pdfs/.gitkeep
+!data/.gitkeep
+
+# Local-only generated files
+backend/scripts/_dataset_user_passwords.LOCAL.csv
+
+# Frontend
+frontend/node_modules/
+frontend/dist/

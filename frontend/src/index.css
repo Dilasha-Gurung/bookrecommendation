@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3 {
+    font-family: theme('fontFamily.display');
+  }
+}
+
+/* signature element: a "spine" accent bar used on book cards */
+.spine {
+  background: linear-gradient(180deg, #C89B4C 0%, #A97F35 100%);
+}
